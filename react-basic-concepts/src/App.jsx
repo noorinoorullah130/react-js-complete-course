@@ -1,5 +1,14 @@
+import Card from "./components/Card";
+import Todo from "./components/CreateTodo";
+
 function App() {
-    return <h1>Hello, world!</h1>;
+    return (
+        <div>
+            <h1>Hello, world!</h1>
+            <Card />
+            <Todo />
+        </div>
+    );
 }
 
 export default App;
